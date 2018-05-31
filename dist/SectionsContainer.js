@@ -269,7 +269,7 @@ var SectionsContainer = function (_React$Component) {
             }, false);
 
             touchsurface.addEventListener('touchmove', function (e) {
-                e.preventDefault(); // prevent scrolling when inside DIV
+                // e.preventDefault(); // prevent scrolling when inside DIV
             }, false);
 
             touchsurface.addEventListener('touchend', function (e) {
